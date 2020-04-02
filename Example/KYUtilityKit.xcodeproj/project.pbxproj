@@ -58,14 +58,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6303C699709B71ABB64D6866 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6303C699709B71ABB64D6866 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6A4901792017265265A4ADB0 /* Pods-KYUtilityKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYUtilityKit_Example.release.xcconfig"; path = "Target Support Files/Pods-KYUtilityKit_Example/Pods-KYUtilityKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F78FC62D2B2FBC7DDC9328B /* Pods_KYUtilityKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYUtilityKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7A3333C4186F9FB16057F51 /* Pods_KYUtilityKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYUtilityKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5EF2F2FAC7DC475FAB50078 /* KYUtilityKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KYUtilityKit.podspec; path = ../KYUtilityKit.podspec; sourceTree = "<group>"; };
-		F1143C98D8152A765E9FA27E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E5EF2F2FAC7DC475FAB50078 /* KYUtilityKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KYUtilityKit.podspec; path = ../KYUtilityKit.podspec; sourceTree = "<group>"; };
+		F1143C98D8152A765E9FA27E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FA403E069B6C888A165C091A /* Pods-KYUtilityKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYUtilityKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-KYUtilityKit_Example/Pods-KYUtilityKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				135C8067BD5E7B31083271FE /* Pods-KYUtilityKit_Tests.debug.xcconfig */,
 				2290D2F24577EDB267483487 /* Pods-KYUtilityKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "kittenyang@icloud.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = R78WMUBTG5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = FA403E069B6C888A165C091A /* Pods-KYUtilityKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R78WMUBTG5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KYUtilityKit/KYUtilityKit-Prefix.pch";
 				INFOPLIST_FILE = "KYUtilityKit/KYUtilityKit-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 6A4901792017265265A4ADB0 /* Pods-KYUtilityKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R78WMUBTG5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KYUtilityKit/KYUtilityKit-Prefix.pch";
 				INFOPLIST_FILE = "KYUtilityKit/KYUtilityKit-Info.plist";

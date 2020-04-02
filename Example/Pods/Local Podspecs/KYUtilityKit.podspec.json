@@ -1,0 +1,22 @@
+{
+  "name": "KYUtilityKit",
+  "version": "0.1.0",
+  "summary": "A short description of KYUtilityKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kittenyang@icloud.com/KYUtilityKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kittenyang@icloud.com": "kittenyang@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/kittenyang@icloud.com/KYUtilityKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KYUtilityKit/Classes/**/*"
+}

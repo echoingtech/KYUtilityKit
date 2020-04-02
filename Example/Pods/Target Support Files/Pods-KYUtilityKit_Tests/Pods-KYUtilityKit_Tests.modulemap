@@ -1,0 +1,6 @@
+framework module Pods_KYUtilityKit_Tests {
+  umbrella header "Pods-KYUtilityKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
