@@ -16,10 +16,10 @@ typedef void(^KYControlLongPressBlock)(KYControl *view, CGPoint point);
 
 @interface KYControl : UIView
 @property (nonatomic, strong) UIImage *image;
+@property (nonatomic, assign) BOOL touchScaleEnable;
 @property (nonatomic, copy) KYControlBlock touchBlock;
 @property (nonatomic, copy) KYControlLongPressBlock longPressBlock;
 @end
-
 NS_ASSUME_NONNULL_END
 
 

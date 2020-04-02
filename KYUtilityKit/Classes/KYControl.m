@@ -18,7 +18,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        
+        self.touchScaleEnable = YES;
     }
     
     return self;
@@ -27,7 +27,7 @@
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        
+        self.touchScaleEnable = YES;
     }
     
     return self;
@@ -74,6 +74,11 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    if (self.touchScaleEnable) {
+        [UIView animateWithDuration:0.4 delay:0.0 usingSpringWithDamping:0.6 initialSpringVelocity:0.8 options:UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionLayoutSubviews animations:^{
+            self.transform = CGAffineTransformScale(self.transform, 0.95, 0.95);
+        } completion:nil];
+    }
     _longPressDetected = NO;
     if (_touchBlock) {
         _touchBlock(self, KYGestureRecognizerStateBegan, touches, event);
@@ -99,6 +104,11 @@
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    if (self.touchScaleEnable) {
+        [UIView animateWithDuration:0.2 delay:0.0 usingSpringWithDamping:0.6 initialSpringVelocity:0.8 options:UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionLayoutSubviews animations:^{
+            self.transform = CGAffineTransformIdentity;
+        } completion:nil];
+    }
     if (_longPressDetected) return;
     if (_touchBlock) {
         _touchBlock(self, KYGestureRecognizerStateEnded, touches, event);
@@ -107,6 +117,11 @@
 }
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
+    if (self.touchScaleEnable) {
+        [UIView animateWithDuration:0.2 delay:0.0 usingSpringWithDamping:0.6 initialSpringVelocity:0.8 options:UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionLayoutSubviews animations:^{
+            self.transform = CGAffineTransformIdentity;
+        } completion:nil];
+    }
     if (_longPressDetected) return;
     if (_touchBlock) {
         _touchBlock(self, KYGestureRecognizerStateCancelled, touches, event);
