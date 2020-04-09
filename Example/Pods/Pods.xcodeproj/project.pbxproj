@@ -13,6 +13,10 @@
 		46F9D5E6B344B942E2914C57B1697B4B /* Pods-KYUtilityKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D485497E4890899607225EA8988B9DB /* Pods-KYUtilityKit_Example-dummy.m */; };
 		5239A0D72108A0733AB4D8F80A13EC40 /* KYUtilityKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A627EB29A2279A373F69853F7DD4FA51 /* KYUtilityKit-dummy.m */; };
 		53C8B8CCA7BEE4E2B9725EC2AEB3D0C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5F06E2F3243F411800CB20EA /* UIView+TouchShrinkable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F06E2EF243F411800CB20EA /* UIView+TouchShrinkable.h */; };
+		5F06E2F4243F411800CB20EA /* UIView+TouchShrinkable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F06E2F0243F411800CB20EA /* UIView+TouchShrinkable.m */; };
+		5F06E2F5243F411800CB20EA /* NSObject+DeallocLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F06E2F1243F411800CB20EA /* NSObject+DeallocLog.m */; };
+		5F06E2F6243F411800CB20EA /* NSObject+DeallocLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F06E2F2243F411800CB20EA /* NSObject+DeallocLog.h */; };
 		5F6DC9D32436ED1B00D028D9 /* KYUtilityKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6DC9D22436ED1B00D028D9 /* KYUtilityKit.h */; };
 		5F6DC9D8243709C800D028D9 /* UIButton+VerticalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6DC9D6243709C800D028D9 /* UIButton+VerticalLayout.m */; };
 		5F6DC9D9243709C800D028D9 /* UIButton+VerticalLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6DC9D7243709C800D028D9 /* UIButton+VerticalLayout.h */; };
@@ -58,6 +62,10 @@
 		340D699CDDFCEF9C04AC08C8697F40A7 /* Pods-KYUtilityKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYUtilityKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3AC60CA0AF26BE1D4A03BCEE45A70EAD /* KYUtilityKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KYUtilityKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		5E315372C7FFD2E2DABBDA1DF83A9222 /* Pods-KYUtilityKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYUtilityKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5F06E2EF243F411800CB20EA /* UIView+TouchShrinkable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+TouchShrinkable.h"; path = "KYUtilityKit/Classes/UIView+TouchShrinkable.h"; sourceTree = "<group>"; };
+		5F06E2F0243F411800CB20EA /* UIView+TouchShrinkable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+TouchShrinkable.m"; path = "KYUtilityKit/Classes/UIView+TouchShrinkable.m"; sourceTree = "<group>"; };
+		5F06E2F1243F411800CB20EA /* NSObject+DeallocLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DeallocLog.m"; path = "KYUtilityKit/Classes/NSObject+DeallocLog.m"; sourceTree = "<group>"; };
+		5F06E2F2243F411800CB20EA /* NSObject+DeallocLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+DeallocLog.h"; path = "KYUtilityKit/Classes/NSObject+DeallocLog.h"; sourceTree = "<group>"; };
 		5F6DC9D22436ED1B00D028D9 /* KYUtilityKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYUtilityKit.h; path = KYUtilityKit/Classes/KYUtilityKit.h; sourceTree = "<group>"; };
 		5F6DC9D6243709C800D028D9 /* UIButton+VerticalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+VerticalLayout.m"; path = "KYUtilityKit/Classes/UIButton+VerticalLayout.m"; sourceTree = "<group>"; };
 		5F6DC9D7243709C800D028D9 /* UIButton+VerticalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+VerticalLayout.h"; path = "KYUtilityKit/Classes/UIButton+VerticalLayout.h"; sourceTree = "<group>"; };
@@ -126,6 +134,10 @@
 		7B889058DA326AE3ADA3AD45A92B609A /* KYUtilityKit */ = {
 			isa = PBXGroup;
 			children = (
+				5F06E2F2243F411800CB20EA /* NSObject+DeallocLog.h */,
+				5F06E2F1243F411800CB20EA /* NSObject+DeallocLog.m */,
+				5F06E2EF243F411800CB20EA /* UIView+TouchShrinkable.h */,
+				5F06E2F0243F411800CB20EA /* UIView+TouchShrinkable.m */,
 				5F6DC9D7243709C800D028D9 /* UIButton+VerticalLayout.h */,
 				5F6DC9D6243709C800D028D9 /* UIButton+VerticalLayout.m */,
 				5F6DC9D22436ED1B00D028D9 /* KYUtilityKit.h */,
@@ -261,7 +273,9 @@
 			files = (
 				5F90B866243642DE0079E59B /* KYControl.h in Headers */,
 				5F90B86A2436435C0079E59B /* KYGestureRecognizer.h in Headers */,
+				5F06E2F3243F411800CB20EA /* UIView+TouchShrinkable.h in Headers */,
 				5F90B8712436456E0079E59B /* KYUtilityHelper.h in Headers */,
+				5F06E2F6243F411800CB20EA /* NSObject+DeallocLog.h in Headers */,
 				5F6DC9D9243709C800D028D9 /* UIButton+VerticalLayout.h in Headers */,
 				5F6DC9D32436ED1B00D028D9 /* KYUtilityKit.h in Headers */,
 				C8DA4470769F0E35A3932839E4A0C390 /* KYUtilityKit-umbrella.h in Headers */,
@@ -402,9 +416,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5239A0D72108A0733AB4D8F80A13EC40 /* KYUtilityKit-dummy.m in Sources */,
+				5F06E2F5243F411800CB20EA /* NSObject+DeallocLog.m in Sources */,
 				5F90B867243642DE0079E59B /* KYControl.m in Sources */,
 				5F6DC9D8243709C800D028D9 /* UIButton+VerticalLayout.m in Sources */,
 				5F90B86B2436435C0079E59B /* KYGestureRecognizer.m in Sources */,
+				5F06E2F4243F411800CB20EA /* UIView+TouchShrinkable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
