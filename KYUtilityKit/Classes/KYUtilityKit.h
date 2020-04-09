@@ -9,15 +9,15 @@
 FOUNDATION_EXPORT double KYUtilityKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char KYUtilityKitVersionString[];
 #import <KYUtilityKit/KYUtilityHelper.h>
-#import <KYUtilityKit/UIView+TouchShrinkable.h>
+//#import <KYUtilityKit/UIView+TouchShrinkable.h>
 #import <KYUtilityKit/KYControl.h>
-#import <KYUtilityKit/NSObject+DeallocLog.h>
+//#import <KYUtilityKit/NSObject+DeallocLog.h>
 #import <KYUtilityKit/UIButton+VerticalLayout.h>
 #else
 #import "KYUtilityHelper.h"
-#import "UIView+TouchShrinkable.h"
+//#import "UIView+TouchShrinkable.h"
 #import "KYControl.h"
-#import "NSObject+DeallocLog.h"
+//#import "NSObject+DeallocLog.h"
 #import "UIButton+VerticalLayout.h"
 #endif
 
