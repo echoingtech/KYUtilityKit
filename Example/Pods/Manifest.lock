@@ -1,5 +1,5 @@
 PODS:
-  - KYUtilityKit (0.1.0)
+  - KYUtilityKit (0.3.1)
 
 DEPENDENCIES:
   - KYUtilityKit (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KYUtilityKit: c5ccf87f51bb749d0d549fccea4b514cb9bcce16
+  KYUtilityKit: faa5fb07ba04ff5734a9d03003c05533db6680ea
 
 PODFILE CHECKSUM: c32f931d00389791e407383e823d135aabdee712
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1
